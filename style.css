@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page_wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("imgs/Greenbackground.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #004aad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitebrand,
+.loginfields {
+  padding: 0px 20px;
+}
+
+.sitebrand img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.loginfields form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studIDfield,
+.passwordfield {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.studIDfield input,
+.passwordfield input {
+  padding: 10px;
+  width: 240px;
+  border: none;
+  border-radius: 2px;
+}
+
+.studIDfield {
+  margin-bottom: 12px;
+}
+
+.passwordfield a {
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+}
+
+.loginbtn input {
+  font-size: 18px;
+  width: 60px;
+  color: white;
+  background-color: #a0d7ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.association_wrapper {
+  padding: 2.5rem;
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.registration_wrapper {
+  padding: 1rem;
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration_wrapper h2 {
+  color: white;
+  margin-left: 10px;
+}
+
+.registration_wrapper form {
+  width: 100%;
+}
+
+.form-studentdetails input {
+  width: 100%;
+}
+
+.form-group,
+.form-group input {
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.form-studentname {
+  display: flex;
+}
+
+.form-studentname .form-group {
+  width: 100%;
+}
+
+.form-studentname input {
+  width: 100%;
+}
+.form-group span {
+  display: block;
+  padding-top: 5px;
+}
+
+.signupbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.signupbtn .form-group input {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 200px;
+  color: white;
+  background-color: #2dc28d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.invalid-feedback {
+  color: rgb(244, 67, 54);
+}
+
+.department_wrapper {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.department_wrapper h1 {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.department_wrapper h3 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.association_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.association_logo img {
+  width: 150px;
+  height: auto;
+}
+
+.association_wrapper h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
