@@ -240,7 +240,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         <div class="navbar">
             <div class="sitebrand">
                 <a href="login.php">
-                    <img src="imgs/ACCSlconNavigation.png" alt="">
+                    <img src="../imgs/ACCSlconNavigation.png" alt="">
                 </a>
             </div>
             <div class="loginfields">
@@ -268,7 +268,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         <div class="association_wrapper">
             <div class="department_wrapper">
                 <div class="association_logo">
-                    <img src="imgs/BSCSLogo.png" alt="ascc logo">
+                    <img src="../imgs/BSCSLogo.png" alt="ascc logo">
                     <h2>Association of Computer Science Students</h2>
                 </div>
                 <h1>College of Information Technology Education</h1>
